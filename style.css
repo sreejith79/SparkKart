@@ -1,0 +1,75 @@
+.logo {
+    width: 10;
+}
+.head-sec{
+    background-color: rgb(48, 46, 46);
+}
+.my-4 {
+    border-color: white;
+}
+.jumbotron {
+    border-radius: 0;
+}
+.product-head {
+    text-decoration: underline;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: uppercase;
+    margin-top: 50px;
+}
+.product-card {
+    border: 2px solid black;
+}
+.product-card:hover {
+    transform: scale(1.06);
+    transition: 1s;
+}
+.home-top {
+    margin-top: 90px;
+    margin-bottom: 50px;
+}
+.review-part-title {
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-family: 'Franklin Gothic Medium';
+    margin-bottom: 40px;
+}
+.review-1{
+    border: 2px solid black;
+    margin-left: 45px;
+}
+.review-2{
+    border: 2px solid black;
+ 
+}
+.footer-sec{
+    background-color: rgb(48, 46, 46);
+}
+.copyright {
+    text-align: center;
+    color: white;
+    margin-left: 30%;
+    margin-right: 30%;
+    font-size: 10px;
+}
+.pagination {
+    margin-top: 30px;
+    display: flex;
+}
+.pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+    border: 1px solid black;
+    margin: 0 4px;
+}
+.pagination a.active {
+    background-color:rgb(48, 46, 46);
+    color: white;
+    border: 1px solid black;
+}
+.pagination a:hover:not(.active) {
+    background-color: #ddd;
+}
